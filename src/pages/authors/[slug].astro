@@ -25,27 +25,33 @@ interface AuthorInfo {
 const authors: Record<string, AuthorInfo> = {
   'marco-rossi': {
     name: 'Marco Rossi',
-    bio: 'Marco è un esperto guida safari con oltre 15 anni di esperienza in Tanzania. Ama condividere la sua passione per la fauna selvaggia e catturare momenti indimenticabili per i suoi ospiti.',
+    image: 'https://avatars.dicebear.com/api/adventurer/marco-rossi.svg',
+    bio: 'Marco è un esperto guida safari con oltre 15 anni di esperienza in Tanzania. Ama condividere la sua passione per la fauna selvaggia e catturare momenti indimenticabili per i suoi ospiti. Quando non è sul campo, scrive racconti di viaggio e tiene workshop fotografici nelle riserve naturali.',
   },
   'david-kimani': {
     name: 'David Kimani',
-    bio: "David è un conservazionista keniota che lavora a stretto contatto con le comunità locali per promuovere il turismo sostenibile e la protezione della fauna."
+    image: 'https://avatars.dicebear.com/api/adventurer/david-kimani.svg',
+    bio: "David è un conservazionista keniota che lavora a stretto contatto con le comunità locali per promuovere il turismo sostenibile e la protezione della fauna. Ha anche fondato una piccola ONG che porta bambini delle scuole rurali a conoscere gli animali nel loro habitat naturale."
   },
   'elena-verdi': {
     name: 'Elena Verdi',
-    bio: 'Fotografa professionista italiana specializzata in wildlife. Ha viaggiato in tutti i parchi africani per immortalare le emozioni più autentiche della savana.',
+    image: 'https://avatars.dicebear.com/api/adventurer/elena-verdi.svg',
+    bio: 'Fotografa professionista italiana specializzata in wildlife. Ha viaggiato in tutti i parchi africani per immortalare le emozioni più autentiche della savana. Le sue foto sono state esposte in gallerie internazionali ed è autrice di due libri sulle grandi predatrici. ',
   },
   'lisa-martinez': {
     name: 'Lisa Martinez',
-    bio: 'Lisa è una naturalista e scrittrice che documenta le grandi migrazioni africane. Il suo lavoro ha ispirato molti a comprendere il ciclo della vita selvaggia.',
+    image: 'https://avatars.dicebear.com/api/adventurer/lisa-martinez.svg',
+    bio: 'Lisa è una naturalista e scrittrice che documenta le grandi migrazioni africane. Il suo lavoro ha ispirato molti a comprendere il ciclo della vita selvaggia. Oltre ai suoi libri, gestisce un blog dove condivide consigli pratici per viaggiatori eco‑consapevoli.',
   },
   'james-muturi': {
     name: 'James Muturi',
-    bio: 'James, residente in Botswana, è noto per i suoi tour dedicati agli elefanti. Crede nel rispetto totale degli animali e nella condivisione della loro storia.',
+    image: 'https://avatars.dicebear.com/api/adventurer/james-muturi.svg',
+    bio: 'James, residente in Botswana, è noto per i suoi tour dedicati agli elefanti. Crede nel rispetto totale degli animali e nella condivisione della loro storia. È anche volontario in un centro di recupero per cuccioli rimasti orfani.',
   },
   'anna-kinyanjui': {
     name: 'Anna Kinyanjui',
-    bio: 'Anna è un"ornitologa" con occhio attento. Organizza safari per birdwatcher e ha catalogato oltre 800 specie nel suo diario personale.',
+    image: 'https://avatars.dicebear.com/api/adventurer/anna-kinyanjui.svg',
+    bio: 'Anna è un"ornitologa" con occhio attento. Organizza safari per birdwatcher e ha catalogato oltre 800 specie nel suo diario personale. Nei weekend conduce workshop per aspiranti naturalisti e cura una piccola collezione di uova fossili rare.',
   },
 };
 
@@ -58,7 +64,10 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 py-16 mx-auto max-w-4xl">
+  <section class="px-4 py-16 mx-auto max-w-4xl text-center">
+    {author.image && (
+      <img src={author.image} alt={author.name} class="mx-auto w-32 h-32 rounded-full mb-6" />
+    )}
     <h1 class="text-3xl font-bold mb-4">{author.name}</h1>
     <p class="text-lg leading-relaxed">{author.bio}</p>
     <p class="mt-8">

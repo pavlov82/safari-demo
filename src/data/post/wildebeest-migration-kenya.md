@@ -3,7 +3,7 @@ publishDate: 2026-04-05T11:45:00Z
 author: Lisa Martinez
 title: La Grande Migrazione negli Gnu - Spettacolo Naturale del Kenya
 excerpt: Assistete a uno dei più grandi spettacoli naturali della Terra - milioni di gnu che migrano attraverso il Kenya in un viaggio epico di sopravvivenza e istinto.
-image: https://images.unsplash.com/photo-1527211488407-9e1cc2e6fcd5?auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2070&q=80
 category: Natural Phenomena
 tags:
   - migration
