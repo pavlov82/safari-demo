@@ -3,7 +3,7 @@ publishDate: 2026-06-08T09:30:00Z
 author: Anna Kinyanjui
 title: "Birdwatching in Africa: Come Organizzare il Safari Ornitologico Perfetto"
 excerpt: "Non è solo un safari, è un viaggio nel cuore della biodiversità. Scopri come avvistare le specie più rare con la guida di esperti locali."
-image: "https://images.unsplash.com/photo-1444464666175-1642a9ff101a?auto=format&fit=crop&w=2070&q=80"
+image: "https://images.unsplash.com/photo-1602538715538-9c034a2f8043?auto=format&fit=crop&w=2070&q=80"
 category: Bird Watching
 tags:
   - birdwatching

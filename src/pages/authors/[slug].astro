@@ -58,6 +58,16 @@ const authors: Record<string, AuthorInfo> = {
 const { slug } = Astro.params as { slug: string };
 const author = authors[slug] || { name: 'Autore Sconosciuto', bio: 'Profilo non disponibile.' };
 
+// gather posts written by this author
+import { fetchPosts } from '~/utils/blog';
+const allPosts = await fetchPosts();
+const authorPosts = allPosts.filter((p) => {
+  return (
+    p.author &&
+    String(p.author).toLowerCase().replace(/\s+/g, '-') === slug
+  );
+});
+
 const metadata = {
   title: `Autore - ${author.name}`,
 };
@@ -73,5 +83,20 @@ const metadata = {
     <p class="mt-8">
       <a href="/" class="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors">Torna alla home</a>
     </p>
+
+    {authorPosts.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Post di {author.name}</h2>
+        <ul class="list-disc pl-6">
+          {authorPosts.map((post) => (
+            <li>
+              <a href={post.permalink} class="text-blue-600 hover:underline">
+                {post.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </section>
 </Layout>
