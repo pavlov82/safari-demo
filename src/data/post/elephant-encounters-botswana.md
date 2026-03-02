@@ -1,9 +1,9 @@
 ---
 publishDate: 2026-05-12T13:20:00Z
 author: James Muturi
-title: Nel Regno dei Giganti: Guida ai Safari con gli Elefanti in Botswana
-excerpt: Con oltre 130.000 esemplari, il Botswana è l'ultimo grande rifugio degli elefanti. Scopri come vivere un incontro ravvicinato che ti cambierà la vita.
-image: https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=2070&q=80
+title: "Nel Regno dei Giganti: Guida ai Safari con gli Elefanti in Botswana"
+excerpt: "Con oltre 130.000 esemplari, il Botswana è l'ultimo grande rifugio degli elefanti. Scopri come vivere un incontro ravvicinato che ti cambierà la vita."
+image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=2070&q=80"
 category: Wildlife Encounters
 tags:
   - botswana
@@ -11,7 +11,7 @@ tags:
   - safari di lusso
   - conservazione
 metadata:
-  canonical: https://safari-demo.vercel.app/elephant-encounters-botswana
+  canonical: "https://safari-demo.vercel.app/elephant-encounters-botswana"
 ---
 
 ## Guardare negli Occhi la Storia dell'Africa

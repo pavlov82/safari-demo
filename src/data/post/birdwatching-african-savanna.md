@@ -1,9 +1,9 @@
 ---
 publishDate: 2026-06-08T09:30:00Z
 author: Anna Kinyanjui
-title: Birdwatching in Africa: Come Organizzare il Safari Ornitologico Perfetto
-excerpt: Non è solo un safari, è un viaggio nel cuore della biodiversità. Scopri come avvistare le specie più rare con la guida di esperti locali.
-image: https://unsplash.com/it/foto/uomo-in-giacca-grigia-e-pantaloni-neri-che-scatta-foto-del-campo-di-erba-verde-durante-il-giorno-BY5vzIdSjbo
+title: "Birdwatching in Africa: Come Organizzare il Safari Ornitologico Perfetto"
+excerpt: "Non è solo un safari, è un viaggio nel cuore della biodiversità. Scopri come avvistare le specie più rare con la guida di esperti locali."
+image: "https://unsplash.com/it/foto/uomo-in-giacca-grigia-e-pantaloni-neri-che-scatta-foto-del-campo-di-erba-verde-durante-il-giorno-BY5vzIdSjbo"
 category: Bird Watching
 tags:
   - birdwatching
@@ -11,7 +11,7 @@ tags:
   - ornitologia
   - africa
 metadata:
-  canonical: https://safari-demo.vercel.app/birdwatching-african-savanna
+  canonical: "https://safari-demo.vercel.app/birdwatching-african-savanna"
 ---
 
 ## Molto più di un Safari: Un'Esperienza Sensoriale

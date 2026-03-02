@@ -1,9 +1,9 @@
 ---
 publishDate: 2026-02-20T10:30:00Z
 author: Elena Verdi
-title: Wildlife Photography nel Serengeti: Guida Professionale allo Scatto Perfetto
-excerpt: Non limitarti a guardare la savana, imparala a immortalare. Scopri l'attrezzatura e i segreti sul campo per portare a casa immagini da National Geographic.
-image: https://unsplash.com/it/foto/leone-marrone-su-campo-di-erba-verde-UxHol6SwLyM
+title: "Wildlife Photography nel Serengeti: Guida Professionale allo Scatto Perfetto"
+excerpt: "Non limitarti a guardare la savana, imparala a immortalare. Scopri l'attrezzatura e i segreti sul campo per portare a casa immagini da National Geographic."
+image: "https://unsplash.com/it/foto/leone-marrone-su-campo-di-erba-verde-UxHol6SwLyM"
 category: Photography Tips
 tags:
   - fotografia naturalistica
@@ -11,7 +11,7 @@ tags:
   - serengeti
   - tecnica fotografica
 metadata:
-  canonical: https://safari-demo.vercel.app/wildlife-photography-serengeti
+  canonical: "https://safari-demo.vercel.app/wildlife-photography-serengeti"
 ---
 
 ## Scrivere con la Luce nel Cuore del Serengeti

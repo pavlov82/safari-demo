@@ -1,9 +1,9 @@
 ---
 publishDate: 2026-03-10T14:15:00Z
 author: David Kimani
-title: Safari Etico: Come il Tuo Viaggio può Salvare l'Africa Selvaggia
-excerpt: Il turismo responsabile è l'arma più potente che abbiamo contro il bracconaggio. Scopri come scegliere un safari che protegga davvero l'ecosistema.
-image: https://unsplash.com/it/foto/tre-zebre-in-piedi-in-un-campo-con-una-montagna-sullo-sfondo-58ZY7gcb8Qo
+title: "Safari Etico: Come il Tuo Viaggio può Salvare l'Africa Selvaggia"
+excerpt: "Il turismo responsabile è l'arma più potente che abbiamo contro il bracconaggio. Scopri come scegliere un safari che protegga davvero l'ecosistema."
+image: "https://unsplash.com/it/foto/tre-zebre-in-piedi-in-un-campo-con-una-montagna-sullo-sfondo-58ZY7gcb8Qo"
 category: Conservation
 tags:
   - sostenibilità
@@ -11,7 +11,7 @@ tags:
   - eco-turismo
   - impatto sociale
 metadata:
-  canonical: https://safari-demo.vercel.app/sustainable-safari-tourism
+  canonical: "https://safari-demo.vercel.app/sustainable-safari-tourism"
 ---
 
 ## Viaggiare con Scopo: Il Potere di una Scelta Consapevole

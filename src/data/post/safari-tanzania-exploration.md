@@ -1,9 +1,9 @@
 ---
 publishDate: 2026-01-15T09:00:00Z
 author: Marco Rossi
-title: Tanzania e Serengeti: Come Progettare un Safari Fuori dagli Schemi
-excerpt: Il Serengeti non è solo un parco, è un’emozione che toglie il fiato. Scopri come evitare le rotte turistiche e vivere la vera Tanzania selvaggia.
-image: https://unsplash.com/it/foto/tre-mongolfiere-che-sorvolano-un-fiume-rcGU1VUgLos
+title: "Tanzania e Serengeti: Come Progettare un Safari Fuori dagli Schemi"
+excerpt: "Il Serengeti non è solo un parco, è un'emozione che toglie il fiato. Scopri come evitare le rotte turistiche e vivere la vera Tanzania selvaggia."
+image: "https://unsplash.com/it/foto/tre-mongolfiere-che-sorvolano-un-fiume-rcGU1VUgLos"
 category: Safari Experiences
 tags:
   - tanzania
@@ -11,7 +11,7 @@ tags:
   - grande migrazione
   - viaggio su misura
 metadata:
-  canonical: https://safari-demo.vercel.app/safari-tanzania-exploration
+  canonical: "https://safari-demo.vercel.app/safari-tanzania-exploration"
 ---
 
 ## Non chiamatelo solo "viaggio": il Serengeti è un risveglio

@@ -1,9 +1,9 @@
 ---
 publishDate: 2026-04-05T11:45:00Z
 author: Lisa Martinez
-title: Grande Migrazione in Kenya: Guida al Momento Perfetto (2026)
-excerpt: Oltre 2 milioni di gnu sfidano la natura in un viaggio epico. Scopri come posizionarti in prima fila per il "River Crossing" senza la folla.
-image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2070&q=80
+title: "Grande Migrazione in Kenya: Guida al Momento Perfetto (2026)"
+excerpt: "Oltre 2 milioni di gnu sfidano la natura in un viaggio epico. Scopri come posizionarti in prima fila per il \"River Crossing\" senza la folla."
+image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2070&q=80"
 category: Natural Phenomena
 tags:
   - grande migrazione
@@ -11,7 +11,7 @@ tags:
   - safari kenya
   - natura selvaggia
 metadata:
-  canonical: https://safari-demo.vercel.app/wildebeest-migration-kenya
+  canonical: "https://safari-demo.vercel.app/wildebeest-migration-kenya"
 ---
 
 ## Il Battito Pulsante dell'Africa: Sei Pronto a Viverlo?
