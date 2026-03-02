@@ -1,0 +1,135 @@
+---
+import { Icon } from 'astro-icon/components';
+
+import Image from '~/components/common/Image.astro';
+import PostTags from '~/components/blog/Tags.astro';
+import SocialShare from '~/components/common/SocialShare.astro';
+
+import { getPermalink } from '~/utils/permalinks';
+import { getFormattedDate } from '~/utils/utils';
+
+import type { Post } from '~/types';
+
+export interface Props {
+  post: Post;
+  url: string | URL;
+}
+
+const { post, url } = Astro.props;
+---
+
+<section class="py-8 sm:py-16 lg:py-20 mx-auto">
+  <article>
+    <!-- Hero Header with Background -->
+    <header
+      class={post.image
+        ? 'relative intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade'
+        : 'relative intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-slate-900 dark:to-slate-800'}
+    >
+      {post.image && (
+        <div class="absolute inset-0 h-96 overflow-hidden">
+          <Image
+            src={post.image}
+            class="w-full h-full object-cover"
+            widths={[400, 900, 1200]}
+            sizes="(max-width: 900px) 400px, 900px, 1200px"
+            alt={post?.excerpt || ''}
+            width={1200}
+            height={400}
+            loading="eager"
+            decoding="async"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
+        </div>
+      )}
+
+      <!-- Content Overlay -->
+      <div class="relative z-10">
+        <!-- Meta Information -->
+        <div class="flex justify-between flex-col sm:flex-row max-w-4xl mx-auto mt-0 mb-4 px-4 sm:px-6 sm:items-center pt-8">
+          <p class="flex flex-wrap gap-3 text-sm text-gray-600 dark:text-gray-300">
+            <span class="flex items-center gap-1">
+              <Icon name="tabler:clock" class="w-4 h-4" />
+              <time datetime={String(post.publishDate)}>{getFormattedDate(post.publishDate)}</time>
+            </span>
+
+            {
+              post.author && (
+                <span class="flex items-center gap-1">
+                  <Icon name="tabler:user" class="w-4 h-4" />
+                  {post.author}
+                </span>
+              )
+            }
+
+            {
+              post.category && (
+                <a class="flex items-center gap-1 hover:underline text-blue-600 dark:text-blue-400" href={getPermalink(post.category.slug, 'category')}>
+                  <Icon name="tabler:tag" class="w-4 h-4" />
+                  {post.category.title}
+                </a>
+              )
+            }
+
+            {
+              post.readingTime && (
+                <span class="flex items-center gap-1">
+                  <Icon name="tabler:book" class="w-4 h-4" />
+                  {post.readingTime} min
+                </span>
+              )
+            }
+          </p>
+        </div>
+
+        <!-- Title and Excerpt -->
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 pb-8">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading mb-6 text-gray-900 dark:text-white">
+            {post.title}
+          </h1>
+          <p class="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl">
+            {post.excerpt}
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="mx-auto px-4 sm:px-6 max-w-4xl">
+      <div
+        class="prose prose-lg dark:prose-invert dark:prose-headings:text-slate-200 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-headings:scroll-mt-[80px] prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:underline hover:prose-a:no-underline prose-img:rounded-lg prose-img:shadow-lg prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:pl-6 prose-blockquote:italic mt-12"
+      >
+        <slot />
+      </div>
+    </div>
+
+    <!-- Footer with Tags and Share -->
+    <div class="mx-auto px-4 sm:px-6 max-w-4xl mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+        <PostTags tags={post.tags} />
+        <SocialShare
+          url={url}
+          text={post.title}
+          class="flex gap-4 text-gray-600 dark:text-gray-400"
+        />
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="mt-16 mb-8 max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="bg-gradient-to-r from-blue-500 to-cyan-500 dark:from-blue-900 dark:to-cyan-900 rounded-lg p-8 text-white">
+        <h3 class="text-2xl font-bold mb-3">Vuoi Vivere un'Esperienza Safari Indimenticabile?</h3>
+        <p class="text-blue-100 mb-6">
+          Contattaci per una consulenza personalizzata e scopri come possiamo aiutarti a pianificare l'avventura
+          perfetta in Africa.
+        </p>
+        <a
+          href="/contact"
+          class="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+        >
+          Richiedi una Consulenza
+        </a>
+      </div>
+    </div>
+  </article>
+</section>
