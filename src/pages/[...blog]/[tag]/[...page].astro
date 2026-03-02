@@ -32,6 +32,14 @@ const metadata = {
   <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline>Tag: {tag.title}</Headline>
     <BlogList posts={page.data} />
+
+    <!-- Consultation CTA box -->
+    <div class="mt-12 mb-8 p-6 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg text-center">
+      <h3 class="text-xl font-bold mb-2">Hai bisogno di una consulenza personalizzata?</h3>
+      <p class="mb-4">Contattaci e ti aiuteremo a progettare il safari perfetto per te nel continente africano.</p>
+      <a href="/" class="inline-block bg-white text-blue-600 font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition-colors">Richiedi Consulenza</a>
+    </div>
+
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
   </section>
 </Layout>
