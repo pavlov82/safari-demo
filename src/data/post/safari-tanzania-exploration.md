@@ -3,7 +3,7 @@ publishDate: 2026-01-15T09:00:00Z
 author: Marco Rossi
 title: "Tanzania e Serengeti: Come Progettare un Safari Fuori dagli Schemi"
 excerpt: "Il Serengeti non è solo un parco, è un'emozione che toglie il fiato. Scopri come evitare le rotte turistiche e vivere la vera Tanzania selvaggia."
-image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=2070&q=80"
+image: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=2070&q=80"
 category: Safari Experiences
 tags:
   - tanzania
