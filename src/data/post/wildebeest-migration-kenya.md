@@ -1,9 +1,9 @@
 ---
-publishDate: 2024-04-05T11:45:00Z
+publishDate: 2026-04-05T11:45:00Z
 author: Lisa Martinez
 title: La Grande Migrazione negli Gnu - Spettacolo Naturale del Kenya
 excerpt: Assistete a uno dei più grandi spettacoli naturali della Terra - milioni di gnu che migrano attraverso il Kenya in un viaggio epico di sopravvivenza e istinto.
-image: https://images.unsplash.com/photo-1547471080-7898f3ad9afa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1527211488407-9e1cc2e6fcd5?auto=format&fit=crop&w=2070&q=80
 category: Natural Phenomena
 tags:
   - migration
@@ -15,6 +15,8 @@ metadata:
 ---
 
 ## Il Viaggio Che Cambierà la Vostra Prospettiva
+
+[**Prenota il tuo safari nella Grande Migrazione**](https://safari-demo.vercel.app) – visita la home per dettagli e consulenza.
 
 Ogni anno, oltre 2 milioni di gnu e zebre intraprendono un viaggio straordinario lungo il Kenya. Questo è il ciclo della vita nel suo stato più puro.
 

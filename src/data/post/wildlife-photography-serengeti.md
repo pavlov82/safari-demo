@@ -1,9 +1,9 @@
 ---
-publishDate: 2024-02-20T10:30:00Z
+publishDate: 2026-02-20T10:30:00Z
 author: Elena Verdi
 title: Wildlife Photography nel Serengeti - Catturare la Bellezza della Natura
 excerpt: Tecniche e consigli per fotografi professionisti e appassionati che desiderano immortalare la magnificenza della fauna africana durante un safari nel Serengeti.
-image: https://images.unsplash.com/photo-1548471528-91c5f8e2f45e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1501706362039-c6e9e25263ba?auto=format&fit=crop&w=2070&q=80
 category: Photography Tips
 tags:
   - photography
@@ -15,6 +15,8 @@ metadata:
 ---
 
 ## L'Arte di Catturare la Savana
+
+[**Scopri i nostri safari fotografici**](https://safari-demo.vercel.app) – visita la home per prenotare un'esperienza su misura.
 
 Il Serengeti offre opportunità fotografiche ineguagliabili. Che siate fotografi principianti o esperti, questa guida vi aiuterà a catturare immagini straordinarie.
 

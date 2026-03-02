@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-03-10T14:15:00Z
+publishDate: 2026-03-10T14:15:00Z
 author: David Kimani
 title: Turismo Safari Sostenibile - Preservare la Selvaggina per le Generazioni Future
 excerpt: Scopri come il turismo responsabile protegge l'ecosistema africano. Guida completa agli alloggi eco-friendly e alle pratiche sostenibili nel safari.
@@ -15,6 +15,8 @@ metadata:
 ---
 
 ## Il Vostro Ruolo nella Conservazione
+
+[**Partecipa ai nostri safari eco-friendly**](https://safari-demo.vercel.app) – contattaci per un viaggio sostenibile fatto su misura.
 
 Ogni viaggio safari può fare differenza nel preservare l'Africa selvaggia. Come visitatori consapevoli, avete il potere di proteggere questi ecosistemi straordinari.
 

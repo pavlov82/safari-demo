@@ -57,7 +57,12 @@ const { post, url } = Astro.props;
               post.author && (
                 <span class="flex items-center gap-1">
                   <Icon name="tabler:user" class="w-4 h-4" />
-                  {post.author}
+                  <a
+                    href={`/authors/${String(post.author).toLowerCase().replace(/\s+/g, '-')}`}
+                    class="hover:underline"
+                  >
+                    {post.author}
+                  </a>
                 </span>
               )
             }
@@ -90,6 +95,15 @@ const { post, url } = Astro.props;
           <p class="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl">
             {post.excerpt}
           </p>
+          <!-- Top CTA banner -->
+          <div class="mt-4 mb-8 p-6 bg-gradient-to-r from-yellow-400 to-red-500 rounded-lg text-center">
+            <a
+              href="/"
+              class="text-white font-bold text-lg hover:underline"
+            >
+              Esplora i nostri servizi safari
+            </a>
+          </div>
         </div>
       </div>
     </header>
