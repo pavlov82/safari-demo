@@ -60,13 +60,16 @@ const author = authors[slug] || { name: 'Autore Sconosciuto', bio: 'Profilo non 
 
 // gather posts written by this author
 import { fetchPosts } from '~/utils/blog';
+import BlogHighlightedPosts from '~/components/widgets/BlogHighlightedPosts.astro';
 const allPosts = await fetchPosts();
-const authorPosts = allPosts.filter((p) => {
-  return (
-    p.author &&
-    String(p.author).toLowerCase().replace(/\s+/g, '-') === slug
-  );
-});
+const authorPosts = allPosts
+  .filter((p) => {
+    return (
+      p.author &&
+      String(p.author).toLowerCase().replace(/\s+/g, '-') === slug
+    );
+  })
+  .sort((a, b) => b.publishDate.valueOf() - a.publishDate.valueOf());
 
 const metadata = {
   title: `Autore - ${author.name}`,
@@ -85,18 +88,14 @@ const metadata = {
     </p>
 
     {authorPosts.length > 0 && (
-      <section class="mt-12">
-        <h2 class="text-2xl font-bold mb-4">Post di {author.name}</h2>
-        <ul class="list-disc pl-6">
-          {authorPosts.map((post) => (
-            <li>
-              <a href={post.permalink} class="text-blue-600 hover:underline">
-                {post.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <BlogHighlightedPosts
+        classes={{
+          container:
+            'pt-0 lg:pt-0 md:pt-0 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade',
+        }}
+        title="Latest Posts"
+        postIds={authorPosts.slice(0, 4).map((p) => p.id)}
+      />
     )}
   </section>
 </Layout>
