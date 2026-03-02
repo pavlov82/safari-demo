@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-06-08T09:30:00Z
 author: Anna Kinyanjui
-title: "Birdwatching nella Savana Africana: Guida per Appassionati"
+title: Birdwatching nella Savana Africana - Guida per Appassionati
 excerpt: Scopri le oltre 1000 specie di uccelli che abitano i safari africani. Tecniche di birdwatching e le migliori destinazioni per ornitologi.
 image: https://images.unsplash.com/photo-1535856155195-37b747ab6ad3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 category: Bird Watching

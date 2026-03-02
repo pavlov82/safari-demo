@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-01-15T09:00:00Z
 author: Marco Rossi
-title: "Esplorazioni Safari in Tanzania: La Magia del Serengeti"
+title: Esplorazioni Safari in Tanzania - La Magia del Serengeti
 excerpt: Scopri i segreti della Tanzania attraverso un'esperienza safari indimenticabile nel Parco Nazionale del Serengeti. Incontri ravvicinati con la fauna selvaggia e paesaggi mozzafiato.
 image: https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 category: Safari Experiences

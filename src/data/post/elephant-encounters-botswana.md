@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-05-12T13:20:00Z
 author: James Muturi
-title: "Incontri Indimenticabili con gli Elefanti nel Botswana"
+title: Incontri Indimenticabili con gli Elefanti nel Botswana
 excerpt: Scopri il regno dei giganti grigi del Botswana. Guida completa ai migliori spot per osservare gli elefanti e comprendere il loro mondo affascinante.
 image: https://images.unsplash.com/photo-1564349989061-89e01d7f0313?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 category: Wildlife Encounters
